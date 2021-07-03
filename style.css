@@ -1,0 +1,110 @@
+:root {
+    font-size: 21px;
+}
+.header {
+    background: #0d2580;
+    padding: 40px;
+    text-align: center;  
+    font-size: 30px;  
+    color: white;    
+  }
+.content {
+    width:690px;
+    height:590px;
+    background-color: #3496d7;
+    float:right;
+}
+.sidebar {
+
+    width:500px;
+
+    height:590px;
+
+    background-color:#3496d7;
+
+    float:left;
+}
+.game-img2 {
+    width: 450px;
+    height: 450px;
+    float: left;
+    object-fit: cover;
+}
+
+.game_comments {
+    text-align: center;
+}
+
+.second-header li {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 50;
+}
+
+.exhibit-btn {
+    margin-left: 42px;
+    padding: 30px 70px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 21px;
+    background-color: #123ca3;
+    border-radius: 7px;
+}
+.checked {
+    color: orange;
+}
+
+.not-checked {
+    color: black;
+}
+.container {
+    padding: 0 2rem;
+}
+.game-item {
+    position: relative;
+    cursor: pointer;
+    margin: 2rem;
+    color: #fff;
+}
+.game-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.index-login {
+    margin-left: 10px;
+    padding: 5px 20px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 11px;
+    background-color: #0a2266;
+    border-radius: 7px;
+}
+.index-add {
+    margin-left: 10px;
+    padding: 5px 20px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 11px;
+    background-color:#71b37f;
+    border-radius: 7px;
+}
+
+.index-delete {
+    margin-left: 10px;
+    padding: 5px 20px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 11px;
+    background-color: #d21734;
+    border-radius: 7px;
+}
+
+
+  

@@ -1,0 +1,40 @@
+<html>
+  <head>
+      <script src="https://unpkg.com/realm-web@1.2.0/dist/bundle.iife.js"></script>
+    <script src="userPage.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+  </head>
+
+  <body onLoad="loadUserInfo()">
+    <div class="header">
+        <h1>Video Game Distribution Service</h1>
+        <div id="user-homepage">
+          <h3>User Page</h3>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="second-header">
+				<ul>
+                    User Name: <li id="username"><span ></span> </li>
+                    Average Rating: <li id="average_rating"><span ></span> </li>
+                    Total Play Time: <li id="total_play_time"><span ></span> </li>
+                    Most Played Game: <li id="most_played_game"><span ></span> </li>
+                </ul>
+        <ul>Comments:<ul id="comments"> </ul></ul>
+
+		</div>
+    <br/>
+    Write comment and choose the game
+    <input type="text" id="comment_game"  placeholder="Write a comment" >
+    Rate and choose the game<input type="number" id="rate_game" placeholder="Enter 1-5 Rate" >
+        <div class="game-gallery" id="all_game">
+        </div>
+
+    </div>
+
+    </body>
+
+</html>

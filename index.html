@@ -1,0 +1,49 @@
+<html>
+<head>
+    <script src="https://unpkg.com/realm-web@1.2.0/dist/bundle.iife.js"></script>
+    <script src="homepage.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"></link>
+</head>
+
+<body onLoad="displayUsers()">
+
+<div class="header">
+    <h1>Video Game Distribution Service</h1>
+    <div id="homepage">
+        <h3>Homepage</h3>
+    </div>
+</div>
+<hr>
+
+<div class="sidebar ">
+    <br/><br/>
+    Add User: <input id="add_user"><input class="index-add" value="ADD" type="submit" onClick="addUser()">
+    <br/><br/>
+    Delete User: <input id="delete_user"><input class="index-delete" value="DELETE" type="submit" onClick="deleteUser()">
+    <br/><br/>
+    Login as a User: <input id="login_user"><input class="index-login" value="LOGIN" type="submit" onClick="loginAsUser()">
+    <br/><br/><br/>
+</div>
+<div class="content">
+    <p>Games:</p>
+    <div id="games"></div>
+    <input type="text" id="game_name"  placeholder="Game Name" >
+    <input type="text" id="game_genre"  placeholder="Game Genre" >
+    <input type="text" id="photoUrl"  placeholder="Photo URL" >
+
+    <h1></h1>
+    <button class="button"  value="addGame" onclick="addGame()">Add Game</button>
+    <h1></h1>
+    <input type="text" id="game_name_remove"  placeholder="Game Name" >
+    <h1></h1>
+    <button class="button" onclick="removeGame()" value="deleteUser">Remove Game</button>
+    <button class="button" onclick="disableRating()" value="login">Disable Rating and Comment </button>
+    <button class="button" onclick="enableRating()" value="login">Enable Rating and Comment </button>
+    <br/>
+</div>
+<p>Users:</p>
+<div id="users"></div>
+
+</body>
+
+</html>
